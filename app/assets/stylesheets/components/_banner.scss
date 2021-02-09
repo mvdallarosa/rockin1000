@@ -1,0 +1,20 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  justify-content: start;
+  color: $white-gray;
+
+  a {
+    text-decoration: underline;
+    color: $white-gray;
+  }
+
+  .date-box {
+    width: 30%;
+  }
+
+  .info-box {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+}
