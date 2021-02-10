@@ -2,7 +2,7 @@
   background-size: cover;
   background-position: center;
   justify-content: start;
-  color: $white-gray;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 
   a {
     text-decoration: underline;
@@ -16,5 +16,14 @@
   .info-box {
     padding-bottom: 5rem;
     padding-top: 5rem;
+  }
+}
+
+.banner-small {
+  padding: 5rem 0;
+
+  .container {
+    width: 50%;
+    margin-left: 5rem;
   }
 }

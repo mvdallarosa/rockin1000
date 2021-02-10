@@ -1,0 +1,54 @@
+.project-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-card {
+  width: 40%;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+  .down {
+    padding-top: 75%;
+  }
+
+}
+
+.press-container {
+  padding: 5rem 10rem;
+  background-color: $dark-gray;
+  text-align: center;
+  p {
+    font-size: 1.8rem;
+  }
+  h5 {
+    font-weight: lighter;
+  }
+  .far {
+    font-size: 4rem;
+    color: $yellow;
+  }
+}
+
+.grid-awards {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+  img {
+    width: 18rem;
+    height: 12rem;
+    object-fit: cover;
+  }
+  p {
+    color: $light-gray;
+    font-size: 1rem;
+    padding-top: .3rem;
+    text-align: center;
+  }
+}
