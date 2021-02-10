@@ -1,9 +1,14 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+@import url('//db.onlinewebfonts.com/c/43c1a2528a0f10adaf7428107afb84b5?family=Ocean+Six');
+@import url('//db.onlinewebfonts.com/c/7defc091a129b48948f730474b109d8f?family=Gilmer+Bold');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 // Define fonts for body and headers
-$body-font: "Work Sans", "Helvetica", "sans-serif";
-$headers-font: "Nunito", "Helvetica", "sans-serif";
+$body-font: "Gilmer", "Maven Pro", "sans-serif";
+$headers-font: "Gilmer", "Maven Pro", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
